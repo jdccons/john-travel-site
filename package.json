@@ -1,0 +1,11 @@
+{
+  "name": "john-travel-site",
+  "version": "1.0.0",
+  "description": "jason file for john-travel-site",
+  "main": "jsdom.js",
+  "dependencies": {
+    "jquery": "^3.4.0",
+    "jsdom": "^14.0.0",
+    "normalize.css": "^8.0.1"
+  }
+}
