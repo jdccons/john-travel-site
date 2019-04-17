@@ -617,6 +617,17 @@ a {
   }
     }
 
+.page-section--no-b-padding-until-large {
+    padding-bottom: 0;
+  }
+
+@media (min-width: 1010px){
+
+.page-section--no-b-padding-until-large {
+      padding-bottom: 4.5rem
+  }
+    }
+
 .page-section--blue {
     background-color: #2f5572;
     color: #FFF;
@@ -772,6 +783,23 @@ a {
     }
 
 .row--equal-height-at-medium > div {
+      float: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+@media (min-width: 1010px){
+
+.row--equal-height-at-large {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex
+
+  }
+    }
+
+.row--equal-height-at-large > div {
       float: none;
       display: -webkit-box;
       display: -ms-flexbox;
